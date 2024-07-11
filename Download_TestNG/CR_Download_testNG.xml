@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name ="Custom_Utilities.base.Listeners">
+        </listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/et1328/Downloads/PNC_1.0_restructured/src/test/java/TestCases_3_PNC_Client_Reviewer_Download">
+        <classes>
+            <class name="TestCases_3_PNC_Client_Reviewer_Download.Download_Suite_Client_Reviewer">
+                <methods>
+                    <include
+                            name="TC04_Verify_if_the_user_able_to_download_the_New_Joiner_Records_form_in_the_Client_Reviewer_Role"/>
+                    <include
+                            name="TC05_Verify_if_the_user_able_to_download_the_New_Joiner_Records_form_for_Future_Processing_period_in_the_Client_Reviewer_Role"/>
+                    <include
+                            name="TC08_Verify_if_the_user_able_to_download_the_Time_and_Attendance_in_the_Client_Reviewer_Role"/>
+                    <include
+                            name="TC09_Verify_if_the_user_able_to_download_the_Time_and_Attendance_for_Future_Processing_Period_in_the_Client_Reviewer_Role"/>
+                    <include name="TC11_Verify_if_the_user_able_to_download_the_Bank_Form_in_the_Client_Reviewer_Role"/>
+                    <include
+                            name="TC15_Verify_if_the_user_able_to_Download_the_Approved_records_for_New_Joiner_form_in_the_Intelligent_Input_Control_Tab"/>
+                    <include
+                            name="TC18_Check_if_the_User_able_to_click_the_Multisheet_Download_Button_Before_Generate_the_Data"/>
+                    <include
+                            name="TC19_Check_if_the_User_able_to_select_the_particular_Processing_Period_Processing_For_PayRun_Type_and_Click_the_Multisheet_Download"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name ="Custom_Utilities.base.Listeners">
+        </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/et1328/Downloads/PNC_1.0_restructured/src/test/java/TestCases_3_PNC_Checker_Download">
+        <classes>
+            <class name="TestCases_3_PNC_Checker_Download.Download_Suite_Checker">
+                <methods>
+                    <include
+                            name="tc16_Check_if_the_user_able_to_download_and_view_all_the_records_for_New_joiner_Form"/>
+                    <include name="tc41_Check_if_the_user_able_to_download_and_view_all_the_records_for_Bank_Form"/>
+                    <include
+                            name="tc29_Check_if_the_user_able_to_download_and_view_all_the_records_for_Time_and_Attendance"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
